@@ -246,13 +246,16 @@ h2::before {
 
 .contact-form {
     background: rgba(255,255,255,0.05);
-    padding: 45px 50px; 
+    padding: 45px; 
     border-radius: 20px;
     backdrop-filter: blur(15px);
     border: 1px solid rgba(168,85,247,0.4);
     box-shadow: 0 0 18px rgba(168,85,247,0.25);
 }
-
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
 .contact-form label {
     display: block;
     margin: 18px 0 8px; 
@@ -336,3 +339,4 @@ footer {
     padding: 60px;
     color: #9ca3af;
 }
+
