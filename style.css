@@ -7,6 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background: radial-gradient(circle at top, #1a0033, #0b0014 100%);
+    background-color: #1a0033; /* ADD THIS LINE - Matches the top of your gradient */
     background-attachment: fixed;
     color: #f1f5f9;
     overflow-x: hidden;
@@ -747,4 +748,5 @@ footer {
     .timeline::before { left: 20px; }
     .timeline { padding-left: 60px; }
     .timeline-dot { left: -48px; }
+
 }
